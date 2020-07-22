@@ -10,8 +10,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://miro.medium.com/max/1200/1*Qc0XxYm-qAZL-7tjjlNfrg.png'),
+            image: AssetImage('images/ruby-logo.png'),
           ),
         ),
       ),
